@@ -1,0 +1,39 @@
+*{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menBar{
+display: inline
+
+}
+
+img {
+    float: left;
+height: 100px;
+}
+
+
+.menuButtons{
+
+justify-content: flex-end;
+display: flex;
+list-style-type:none;
+cursor: pointer;
+padding: 30px;
+
+
+}
+
+
+.menuButtons :hover{
+
+    background-color: #B0A084
+
+}
+li {
+    padding: 10px;
+   
+    border-radius: 10px;
+    margin:15px;
+}
