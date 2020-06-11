@@ -70,6 +70,7 @@ a{
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
 }
 
 .relleno{
@@ -77,6 +78,21 @@ a{
 
     
 }
+
+
+
+.imgservicios1{
+    border-radius: 10px;
+    float: right;
+    height: 200px;
+    opacity: 40%;
+}
+
+.imgservicios2{
+    border-radius: 10px;
+    float: right;
+}
+
 /*//////////////////////////////////////////////////////////////////////
 //contact form 
 
