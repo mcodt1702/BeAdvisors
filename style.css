@@ -51,6 +51,28 @@ li {
     height: 200px;
 }
 
+.imgcontacto{
+float: right;
+
+
+}
+
+
+.textarea{
+    height:150px;
+    width: 500px;
+}
+
+.right{
+text-align: center;
+
+
+}
+.imgmaincontacto {
+
+
+}
+
 p{margin-top: 200px;}
 
 a{
@@ -93,62 +115,17 @@ a{
     float: right;
 }
 
-/*//////////////////////////////////////////////////////////////////////
-//contact form 
-
-
-/*/
-
-
 
 h1 {
     text-align: center;
 }
 
 form {
-   max-width: 600px;
+   max-width: 800px;
    text-align: center;
    margin: 20px auto;
   
 }
   
 
-  .textarea {
-      height: 60px;
-      width: 400px;
-  }
-}
 
-
-.half {
-  float: left;
-  width: 48%;
-  margin-bottom: 1em;
-}
-
-.right { width: 50%; }
-
-.left {
-     margin-right: 2%; 
-}
-
-
-@media (max-width: 480px) {
-  .half {
-     width: 100%; 
-     float: none;
-     margin-bottom: 0; 
-  }
-}
-
-
-/* Clearfix */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
