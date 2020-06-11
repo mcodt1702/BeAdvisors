@@ -1,5 +1,5 @@
 *{
-
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -54,14 +54,28 @@ li {
 
 .imgcontacto{
 float: right;
+height: 200px;
+margin-right: 75px;
+border-radius: 10px;
 
 
 }
 
+.banner{
+
+    margin-left: 50%
+    margin-right: auto;
+}
+
+.bannerdiv{
+    height: 400px;
+   text-align: center;
+}
 
 .textarea{
     height:150px;
     width: 500px;
+  
 }
 
 .right{
@@ -87,7 +101,9 @@ a{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
+    
 }
+
 
 .servicios{
     width: 800px;
